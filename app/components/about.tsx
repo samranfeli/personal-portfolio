@@ -13,7 +13,7 @@ const About = () => {
                             About me
                         </h3>
                         <p className="mb-3">
-                        My name is Samran and I'm a front-end developer based in Tehran. I describe myself as a passionate developer who loves coding, design and working with visual elements.
+                        My name is Samran and I&apos;m a front-end developer based in Tehran. I describe myself as a passionate developer who loves coding, design and working with visual elements.
                         </p>
                         <p className="mb-3">
                         Aside from my job, I like to contribute in diverse projects. It helps me to learn new stuffs and grow as a developer.
