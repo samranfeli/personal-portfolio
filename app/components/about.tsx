@@ -21,7 +21,7 @@ const About = () => {
                         <p className="mb-3">
                         In my free time you can find me in Hiking and mountaineering or at art drawing studios.
                         </p>
-                        <a href="/resume.pdf" className="rounded-lg font-semibold text-white text-lg md:text-2xl bg-amber-500 px-4 py-1 md:py-3 inline-block transition-all hover:bg-amber-400" download="">
+                        <a href="/files/resume.pdf" className="rounded-lg font-semibold text-white text-lg md:text-2xl bg-amber-500 px-4 py-1 md:py-3 inline-block transition-all hover:bg-amber-400" download >
                             Download Resume
                         </a>
                     </div>
