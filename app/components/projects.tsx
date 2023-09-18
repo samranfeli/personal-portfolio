@@ -81,7 +81,7 @@ const Projects = () => {
     ]
 
     return (
-        <section className="py-10 md:py-20 bg-stone-100">
+        <section className="py-10 md:py-20 bg-stone-100 text-stone-600">
             <div className="max-w-7xl mx-auto px-3">
                 <h3 className="font-semibold text-xl md:text-3xl text-amber-500 mb-5 md:mb-8 md:text-center">
                     Projects
@@ -89,7 +89,7 @@ const Projects = () => {
 
                 <div className="sm:grid sm:grid-cols-2 sm:gap-5 md:gap-10 max-w-4xl mx-auto">
                     {projects.map(project => (
-                        <div key={project.title} className="mb-14 sm:mb-0 relative group border border-stone-300 rounded">
+                        <div key={project.title} className="mb-14 sm:mb-0 relative group md:border md:border-stone-300 rounded cursor-crosshair">
                             <Image src={project.cover} alt={project.title} className="block rounded mb-2 md:mb-0 w-full" />
                             <div className="md:p-3 md:absolute md:right-0 md:left-0 md:top-0 md:bottom-0 md:bg-amber-500 md:text-white md:flex md:flex-col md:justify-center items-center transition-all md:opacity-0 md:hover:opacity-100 md:rounded duration-500">
                                 <h3 className="font-bold text-xl md:mb-3 md:translate-x-4 group-hover:md:translate-x-0 transition-all duration-500">{project.title}</h3>
