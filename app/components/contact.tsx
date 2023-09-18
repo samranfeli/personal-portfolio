@@ -29,7 +29,7 @@ const Contact = () => {
                     Contact
                 </h3>
                 <p  className="text-center max-w-3xl mx-auto mb-6">
-                    If you have any questions, please feel free to contact me. If you don't get an answer immediately,I'll get back to you as soon as possible.
+                    If you have any questions, please feel free to contact me. If you don&apos;t get an answer immediately, I&apos;ll get back to you as soon as possible.
                 </p>
                 
                 <div className="flex justify-between items-center mb-2 max-w-xs mx-auto md:px-6">
