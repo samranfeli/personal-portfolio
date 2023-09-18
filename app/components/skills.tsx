@@ -53,7 +53,7 @@ const Skills = () => {
     ]
 
     return (
-        <section className="py-10 md:pt-10 md:pb-16 bg-gradient-to-r from-sky-50 to-rose-100">
+        <section className="py-10 md:pt-10 md:pb-16 bg-gradient-to-r from-sky-50 to-rose-100 dark:from-sky-50/25 dark:to-rose-100/25">
             <div className="max-w-7xl mx-auto px-3">
                 <h3 className="font-semibold text-xl md:text-3xl text-rose-600 text-center mb-6 md:mb-10">
                     Skills
