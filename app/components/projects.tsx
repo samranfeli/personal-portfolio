@@ -81,7 +81,7 @@ const Projects = () => {
     ]
 
     return (
-        <section className="py-10 md:py-20 bg-stone-100 text-stone-600 dark:bg-stone-500/25">
+        <section className="py-10 md:py-20 bg-stone-100 text-stone-600 dark:bg-stone-500/25 dark:text-inherit">
             <div className="max-w-7xl mx-auto px-3">
                 <h3 className="font-semibold text-xl md:text-3xl text-amber-500 mb-5 md:mb-8 md:text-center">
                     Projects
