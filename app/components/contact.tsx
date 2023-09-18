@@ -48,6 +48,7 @@ const Contact = () => {
                             href={item.url} 
                             target="_blank"
                             className="block"
+                            key={item.title}
                         >
                             {item.icon}
                         </a>
