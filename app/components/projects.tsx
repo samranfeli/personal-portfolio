@@ -1,6 +1,7 @@
 import Image, { StaticImageData } from "next/image";
 
 import charity from '../assets/projects/charity.jpg';
+import enriskconsultingNewDesign from '../assets/projects/enriskconsulting-new-design.jpg';
 import enriskconsulting from '../assets/projects/enriskconsulting.jpg';
 import ganjoor from '../assets/projects/ganjoor.jpg';
 import goodwin from '../assets/projects/goodwin.jpg';
@@ -26,6 +27,14 @@ const Projects = () => {
                 repoUrl: "https://github.com/samranfeli/ganjoor",
                 cover: ganjoor,
                 technologies: ["Html", "Css", "Nextjs", "Typescript", "Reduxjs/toolkit", "Sass", "Antd", "Tailwindcss"]
+            },
+            {
+                title: "www.enriskconsulting.com (SPA)",
+                description: "Company Website (under construction)",
+                url: "https://enrisk.netlify.app",
+                repoUrl: "https://github.com/samranfeli/enrisk",
+                cover: enriskconsultingNewDesign,
+                technologies: ["Html", "Css", "Nextjs", "Typescript", "Context API", "Leaflet map", "Tailwindcss"]
             },
             {
                 title: "www.enriskconsulting.com",
